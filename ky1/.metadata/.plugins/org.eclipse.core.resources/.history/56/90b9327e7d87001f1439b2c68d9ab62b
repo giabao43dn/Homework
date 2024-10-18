@@ -1,0 +1,20 @@
+package HanhDong;
+
+public class Nguoi {
+// thuoc tinh
+	private String ten;
+	private int tuoi;
+	private int sdt;
+	
+	public Nguoi(String ten, int tuoi, int sdt) {
+		super();
+		this.ten = ten;
+		this.tuoi = tuoi;
+		this.sdt = sdt;
+	}
+
+// hanh dong
+	void ngu() {
+			System.out.println( " dang ngu ");
+		}
+}
